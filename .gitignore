@@ -1,0 +1,49 @@
+# Ignore build artifacts and binaries
+/build/
+raylib
+raygui
+/bin/
+*.o
+*.so
+*.dll
+*.lib
+*.a
+*.out
+*.exe
+*.dsym
+main
+game
+aliens
+spaceship
+
+# Ignore temporary and log files
+*.log
+*.tmp
+
+# Ignore other editor-specific files
+.idea/
+*.swp
+*~
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Raylib-specific build artifacts and binaries
+/raylib/build/
+/raylib/bin/
+/raylib/*.o
+/raylib/*.so
+/raylib/*.dll
+/raylib/*.lib
+/raylib/*.a
+/raylib/*.out
+/raylib/*.exe
+/raylib/*.log
+/raylib/*.tmp
+
+# Ignore Raylib compiled libraries
+/raylib/lib/
+/raylib/*.dylib
+/raylib/*.pdb
+/raylib/*.ilk
