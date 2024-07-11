@@ -13,9 +13,7 @@ raygui
 *.dsym
 main
 game
-aliens
-spaceship
-
+raygui.h
 # Ignore temporary and log files
 *.log
 *.tmp
