@@ -94,7 +94,7 @@ To create models of other planets, you need to update the file locations in `mai
     - Use only png file formats for image and texture.
 
 4. **Ensure Numbered Filenames**:
-    - Make sure that the image names for clouds and seasons are in numerical order. For example, `cloud_1.png`, `cloud_2.png`, etc. The program will use these numbers to load the correct files.
+    - Make sure that the image names for clouds and seasons are in numerical order. For example, `1.png`, `2.png`, etc. The program will use these numbers to load the correct files.
 
 5. **Save and Rebuild**:
     - Save your changes to `main.cpp` and rebuild the project using your IDE's build tools.
