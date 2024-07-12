@@ -52,13 +52,14 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/3d-model-of-planets.git
+    git clone https://github.com/vb8146649/PlanetSimulator_usingRaylib
     cd PlanetSimulator_usingRaylib
     ```
 
 2. Install dependencies:
     - Follow the instructions on the [raylib website](https://www.raylib.com/) to install raylib.
     - Ensure your C++ compiler is set up correctly.
+    - Make sure you have `raygui.h` and update it's in the `common.h`.
 
 3. Build the project:
     - Open the project in your IDE (e.g., Visual Studio Code).
@@ -87,7 +88,7 @@ To create models of other planets, you need to update the file locations in `mai
       std::string cloudmaploc = "path/to/clouds/cloud/";
       std::string seasonsmaploc = "path/to/seasons/season/";
       ```
-    - Update these variables with the paths to your new planet data files. Ensure that the images for clouds and seasons are named in sequence (e.g., cloud_1.png, cloud_2.png) and use the correct file names to specify the ending and starting numbers.
+    - Update these variables with the paths to your new planet data files. Ensure that the images for clouds and seasons are named in sequence (e.g., 1.png, 2.png) and use the correct file names to specify the ending and starting numbers.
 
 3. **Ensure File Format**: 
     - Use only png file formats for image and texture.
