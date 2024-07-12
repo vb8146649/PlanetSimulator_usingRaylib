@@ -3,7 +3,7 @@
 Welcome to the **3D Model of Planets** project! This project generates a 3D model of planets using topographic features and textures, primarily focusing on Earth. The model allows for various customizations and simulations to create an accurate and dynamic representation of planets.
 
 <video width="700" height="700" controls>
-    <source src="preview.webm" type="video/mp4">
+    <source src="preview.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
