@@ -59,7 +59,7 @@ To get started with the project, follow these steps:
 2. Install dependencies:
     - Follow the instructions on the [raylib website](https://www.raylib.com/) to install raylib.
     - Ensure your C++ compiler is set up correctly.
-    - Make sure you have `raygui.h` and update it's in the `common.h`.
+    - Make sure you have `raygui.h` and update it's location in the `common.h`.
 
 3. Build the project:
     - Open the project in your IDE (e.g., Visual Studio Code).
