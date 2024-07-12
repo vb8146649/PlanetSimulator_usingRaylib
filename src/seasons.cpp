@@ -33,6 +33,7 @@ void Seasons::Update(Model &model)
             std::sprintf(fileNumber, "%d.png", iterationPos); // Assuming files are named clouds_00.png, clouds_01.png, etc.
             image = LoadImage((filename + fileNumber).c_str());
             ImageRotateCCW(&image);
+            ImageFlipVertical(&image);
             if(model.meshCount!=0){
                 model.materials[0].maps[MATERIAL_MAP_DIFFUSE].texture = LoadTextureFromImage(image);
             }
