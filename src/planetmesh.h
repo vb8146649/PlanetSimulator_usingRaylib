@@ -10,7 +10,8 @@ class PlanetMesh{
         float rotatex,rotatey,rotatez;
         float xOffset;
         float yOffset;
-        void GenerateDisplacedSphere(float radius, int rings, int slices, const std::vector<float>& heightMap, int mapWidth, int mapHeight, float heightScale,float initialHeight);
+        Mesh GenerateDisplacedSphere(float radius, int rings, int slices, const std::vector<float>& heightMap, int mapWidth, int mapHeight, float heightScale,float initialHeight);
+        Mesh sphere;
     private:
 
 };

@@ -1,24 +1,35 @@
 #pragma once
 #include "raylib.h"
-#include <raygui/src/raygui.h>
+// #include <raygui/src/raygui.h>
+#include <src/common.h>
 #include "planetmesh.h"
 #include <vector>
 #include <raymath.h>
 #include <fstream>
 #include <iostream>
 #include "impmeshcodes.h"
+#include <string.h>
+#include "clouds.h"
+#include "seasons.h"
 
 class Planet{
     public:
-        Planet();
+        Planet(std::string topographymap,std::string texturemap,std::string cloudmaploc,std::string seasonsmaploc);
         void Update();
         void Draw();
         void Gui();
         void HandleInputs();
-        std::vector<float> LoadHeightMap();
         Model mesh;
+        int frame;
+        float lastUpdateTime;
+        bool hide;
+        Clouds clouds;
+        Seasons season;
     private:
+        std::vector<float> LoadHeightMap();
         float changeResolution;
+        void Save();
+        void LoadMesh();
         float changeHeightScale;
         float changexOffset;
         float rotation;
@@ -38,4 +49,5 @@ class Planet{
         float radius;
         float changeRadius;
         float changeInitialHeight;
+        bool isTopoColor;
 };
