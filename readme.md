@@ -3,19 +3,19 @@
 Welcome to the **3D Model of Planets** project! This project generates a 3D model of planets using topographic features and textures, primarily focusing on Earth. The model allows for various customizations and simulations to create an accurate and dynamic representation of planets.
 
 <video width="700" height="700" controls>
-    <source src="preview.mp4" type="video/mp4">
+    <source src="https://github.com/vb8146649/PlanetSimulator_usingRaylib/blob/main/preview.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
 ## Some Available Maps:
 
-- <img src="https://github.com/vb8146649/PlanetSimulator_usingRaylib/blob/main/src/mercury/4096.png" height="350" width="350">
+<img src="https://github.com/vb8146649/PlanetSimulator_usingRaylib/blob/main/src/mercury/4096.png" height=350 width=700>
 
-- <img src="https://github.com/vb8146649/PlanetSimulator_usingRaylib/blob/main/src/GFSR/1.png" height=350 width=350>
+<img src="https://github.com/vb8146649/PlanetSimulator_usingRaylib/blob/main/src/GFSR/1.png" height=350 width=700>
 
-- <img src="https://github.com/vb8146649/PlanetSimulator_usingRaylib/blob/main/static_images/monthly/earth-night/1.jpg" height=350 width=350>
+<img src="https://github.com/vb8146649/PlanetSimulator_usingRaylib/blob/main/static_images/monthly/earth-night/1.jpg" height=350 width=700>
 
-- <img src="https://github.com/vb8146649/PlanetSimulator_usingRaylib/blob/main/src/milkyway/constillation.jpg" height="350" width="350">
+<img src="https://github.com/vb8146649/PlanetSimulator_usingRaylib/blob/main/src/milkyway/constillation.jpg" height=350 width=700>
 
 - **Venus** , **Saturn**, etc.
 
