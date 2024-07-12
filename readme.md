@@ -2,10 +2,7 @@
 
 Welcome to the **3D Model of Planets** project! This project generates a 3D model of planets using topographic features and textures, primarily focusing on Earth. The model allows for various customizations and simulations to create an accurate and dynamic representation of planets.
 
-<video width="350" height="350" controls>
-    <source src="https://github.com/vb8146649/PlanetSimulator_usingRaylib/blob/main/preview.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+[Watch the demo video](https://youtu.be/WQ0DoUXU-0g?si=XkhABOlHv4FEDQkh)
 
 ## Some Available Maps:
 
